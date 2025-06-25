@@ -24,7 +24,7 @@ import cozmo
 
 def cozmo_program(robot: cozmo.robot.Robot):
     # Play an animation via a Trigger - see:
-    # http://cozmosdk.anki.com/docs/generated/cozmo.anim.html#cozmo.anim.Triggers
+    # http://cozmosdk.anki.bot/docs/generated/cozmo.anim.html#cozmo.anim.Triggers
     # for a list of available triggers.
     # A trigger can pick from several appropriate animations for variety.
     print("Playing Animation Trigger 1:")

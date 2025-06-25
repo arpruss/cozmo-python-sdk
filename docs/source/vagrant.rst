@@ -136,6 +136,6 @@ For example, to run the Hello World example program, you would type ``./hello_wo
 
 ----
 
-`Terms and Conditions <https://www.anki.com/en-us/company/terms-and-conditions>`_ and `Privacy Policy <https://www.anki.com/en-us/company/privacy>`_
+`Terms and Conditions <https://anki.bot/policies/terms-of-service>`_ and `Privacy Policy <https://anki.bot/policies/privacy-policy>`_
 
-`Click here to return to the Anki Developer website. <http://developer.anki.com>`_
+`Click here to return to the Anki Developer website. <http://developer.anki.bot>`_

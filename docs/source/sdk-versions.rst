@@ -71,11 +71,13 @@ The Cozmo SDK is updated often in order to provide you with the best possible us
 +---------------+---------------+
 | 3.4.0         | 1.4.10        |
 +---------------+---------------+
+| 3.6.x         | 1.4.11        |
++---------------+---------------+
 
 If you have incompatible versions of the app and the SDK, please update the app and SDK.
 
 ----
 
-`Terms and Conditions <https://www.anki.com/en-us/company/terms-and-conditions>`_ and `Privacy Policy <https://www.anki.com/en-us/company/privacy>`_
+`Terms and Conditions <https://anki.bot/policies/terms-of-service>`_ and `Privacy Policy <https://anki.bot/policies/privacy-policy>`_
 
-`Click here to return to the Anki Developer website. <http://developer.anki.com>`_
+`Click here to return to the Anki Developer website. <http://developer.anki.bot>`_

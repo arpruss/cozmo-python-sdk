@@ -25,7 +25,6 @@ sys.path.extend([os.path.abspath('../../src'), os.path.abspath('..')])
 here = os.path.abspath(os.path.dirname(__file__))
 sdk_base_dir = os.path.join(here, '..', '..')
 
-
 def fetch_sdk_version():
     with open(os.path.join(sdk_base_dir, 'src', 'cozmo', 'version.py')) as f:
         ns = {}
@@ -75,7 +74,7 @@ extensions = [
     #'sphinx.ext.napoleon'
 ]
 
-verlink_base_url = 'http://cozmosdk.anki.com/%s/' % sdk_version
+verlink_base_url = 'http://cozmosdk.anki.bot/%s/' % sdk_version
 verlink_version = sdk_version
 
 intersphinx_mapping = {

@@ -8,7 +8,7 @@ To make sure you get the best experience possible out of the SDK, please ensure 
 Cozmo SDK Forums
 ----------------
 
-Please visit our `Cozmo SDK Forums <https://forums.anki.com/>`_ where you can:
+Please visit our `Cozmo SDK Forums <https://forums.anki.bot/>`_ where you can:
 
 * Get assistance with your code
 
@@ -145,6 +145,6 @@ Now, nightnight.py is saved in the same folder as 01_hello_world.py.
 
 Now that you have written your own Cozmo program, take a look at the rest of the Cozmo SDK and at the many other example programs to get more ideas.
 
-`Terms and Conditions <https://www.anki.com/en-us/company/terms-and-conditions>`_ and `Privacy Policy <https://www.anki.com/en-us/company/privacy>`_
+`Terms and Conditions <https://anki.bot/policies/terms-of-service>`_ and `Privacy Policy <https://anki.bot/policies/privacy-policy>`_
 
-`Click here to return to the Anki Developer website. <http://developer.anki.com>`_
+`Click here to return to the Anki Developer website. <http://developer.anki.bot>`_

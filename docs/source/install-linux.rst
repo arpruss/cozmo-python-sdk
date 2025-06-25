@@ -109,10 +109,10 @@ Mobile Device Setup
 Troubleshooting
 ^^^^^^^^^^^^^^^
 
-Please see the :ref:`trouble` section of the Initial Setup page for tips, or visit the `Cozmo SDK Forums <https://forums.anki.com/>`_ to ask questions, find solutions, or for general discussion.
+Please see the :ref:`trouble` section of the Initial Setup page for tips, or visit the `Cozmo SDK Forums <https://forums.anki.bot/>`_ to ask questions, find solutions, or for general discussion.
 
 ----
 
-`Terms and Conditions <https://www.anki.com/en-us/company/terms-and-conditions>`_ and `Privacy Policy <https://www.anki.com/en-us/company/privacy>`_
+`Terms and Conditions <https://anki.bot/policies/terms-of-service>`_ and `Privacy Policy <https://anki.bot/policies/privacy-policy>`_
 
-`Click here to return to the Anki Developer website. <http://developer.anki.com>`_
+`Click here to return to the Anki Developer website. <http://developer.anki.bot>`_

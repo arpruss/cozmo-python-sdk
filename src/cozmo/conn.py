@@ -389,13 +389,13 @@ class CozmoConnection(event.Dispatcher, clad_protocol.CLADProtocol):
                     error_message += ('Please update your SDK to the newest version by calling command:\n'
                                       '"pip3 install --user --upgrade cozmo"\n'
                                       'and downloading the latest examples from:\n'
-                                      'http://cozmosdk.anki.com/docs/downloads.html\n')
+                                      'http://cozmosdk.anki.bot/docs/downloads.html\n')
                 else:
                     # SDK is newer
                     error_message += ('Please either:\n\n'
                                       '1) Update your app to the most recent version on the app store.\n'
                                       '2) Or, if you prefer, please determine which SDK version matches\n'
-                                      '   your app version at: http://go.anki.com/cozmo-sdk-version\n'
+                                      '   your app version at: http://go.anki.bot/cozmo-sdk-version\n'
                                       '   Then downgrade your SDK by calling the following command,\n'
                                       '   replacing SDK_VERSION with the version listed at that page:\n'
                                       '   "pip3 install --ignore-installed cozmo==SDK_VERSION"\n')
