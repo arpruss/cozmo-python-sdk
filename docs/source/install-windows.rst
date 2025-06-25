@@ -33,17 +33,43 @@ run it on your computer.
 SDK Installation
 ^^^^^^^^^^^^^^^^
 
-To install the SDK, type the following into the Command Prompt window::
+**Important: In 2025 and later, the Cozmo SDK requires a local dependency named ``cozmoclad`` that is no longer available from PyPI.**
 
-    pip3 install --user cozmo[camera]
+You **must** install it manually before continuing.
 
-Note that the [camera] option adds support for processing images from Cozmo's camera.
+1. Open Command Prompt or PowerShell, then run the following to download `cozmoclad`::
+
+    curl -o cozmoclad-3.6.6-py3-none-any.whl https://raw.githubusercontent.com/DDLbots/cozmo-python-sdk/refs/heads/master/cozmoclad/cozmoclad-3.6.6-py3-none-any.whl
+
+2. Then install it::
+
+    pip3 install --user .\cozmoclad-3.6.6-py3-none-any.whl
+
+3. Finally, install the SDK itself::
+
+    pip3 install --user "cozmo[camera]"
+
+Note that the `[camera]` option adds support for processing images from Cozmo's camera.
 
 """""""""""
 SDK Upgrade
 """""""""""
 
-To upgrade the SDK from a previous install, enter this command::
+To upgrade the SDK from a previous install, follow these steps:
+
+1. **Uninstall the old version of `cozmoclad`**::
+
+    pip3 uninstall cozmoclad
+
+2. **Download the latest `cozmoclad` wheel**::
+
+    curl -o cozmoclad-3.6.6-py3-none-any.whl https://raw.githubusercontent.com/DDLbots/cozmo-python-sdk/refs/heads/master/cozmoclad/cozmoclad-3.6.6-py3-none-any.whl
+
+3. **Reinstall `cozmoclad`**::
+
+    pip3 install --user .\cozmoclad-3.6.6-py3-none-any.whl
+
+4. **Upgrade the SDK**::
 
     pip3 install --user --upgrade cozmo
 
